@@ -6,6 +6,7 @@ module.exports = {
       }
     }
   },
+  base: '/blog/',
   title: 'kejindog',
   description: 'kejindog blog',
   head: [],
