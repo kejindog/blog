@@ -2,7 +2,7 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - dev
+      - "dev"
     # The branches below must be a subset of the branches above
       branches: dev
 jobs:
