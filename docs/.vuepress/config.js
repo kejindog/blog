@@ -17,7 +17,12 @@ module.exports = {
       { text: '前端', link: '/web/' },
       { text: '资料', link: '/resource/' },
       { text: 'github', link: 'https://github.com/kejindog/blog', target:'_blank' }
-    ]
+    ],
+    sidebar: {
+      '/web3/': [
+        ['Links', 'links']
+      ]
+    }
   },
   plugins: [],
   Markdown: {
