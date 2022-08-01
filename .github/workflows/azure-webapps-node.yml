@@ -2,8 +2,9 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - "dev"
-  workflow_dispatch:
+      - dev
+    # The branches below must be a subset of the branches above
+      branches: dev
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
