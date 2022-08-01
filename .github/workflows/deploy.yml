@@ -12,6 +12,7 @@ jobs:
       with:
         fetch-depth: 2
     - run: git checkout dev
+    
     - name: Use Node.js 14.x  #使用nodejs 12.x版本
       uses: actions/setup-node@v1 
       with:
