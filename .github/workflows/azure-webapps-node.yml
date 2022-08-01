@@ -1,0 +1,29 @@
+name: GitHub Actions Build and Deploy Demo
+on:
+  push:
+    branches:
+      - "dev"
+  workflow_dispatch:
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
+    - run: git checkout code
+      if: ${{ github.event_name == 'pull_request' }}
+
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: master
+        FOLDER: docs/.vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
