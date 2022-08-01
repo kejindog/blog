@@ -1,10 +1,8 @@
 name: deploy
 on:
   push:
-    branches: [ dev ]
-    pull_request:
-      anches: [ dev ]
-    workflow_dispatch:
+    branches:
+      - dev
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -14,6 +12,10 @@ jobs:
       with:
         fetch-depth: 2
     - run: git checkout dev
+    - name: Use Node.js 14.x  #使用nodejs 12.x版本
+      uses: actions/setup-node@v1 
+      with:
+        node-version: '14.x'
 
     - name: Install and Build
       run: npm install && npm run build
