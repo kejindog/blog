@@ -26,4 +26,5 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         folder: docs/.vuepress/dist
+        clean: true
         branch: main
