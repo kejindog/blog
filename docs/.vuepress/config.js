@@ -15,7 +15,12 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'web3', link: '/web3/' },
-      { text: '前端', link: '/web/' },
+      { text: '前端', ariaLabel: 'javascript',
+        items: [
+          { text: '浏览器', link: '/browser/' },
+          { text: 'web', link: '/web/' },
+        ]
+      },
       { text: '资料', link: '/resource/' },
       { text: 'github', link: 'https://github.com/kejindog/blog', target:'_blank' }
     ],
