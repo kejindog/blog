@@ -26,9 +26,30 @@ module.exports = {
     ],
     sidebar: {
       '/web3/': [
-        ['Links', 'links']
+        {
+          title: '常见链接',
+          path: 'Links',
+          // collapsable: false, // 可选的, 默认值是 true,
+          // sidebarDepth: 1,    // 可选的, 默认值是 1
+          // children: []
+        },
+        {
+          title: '你需要了解的关键字',
+          path: 'keys'
+        },
+        {
+          title: '初识web3.0',
+          path: 'start'
+        },
+        {
+          title: 'web3js',
+          path: 'web3js'
+        }
       ]
-    }
+    },
+    sidebarDepth: 4, // 标题深度
+    displayAllHeaders: true, // 显示所有标题
+    lastUpdated: 'Last Updated', // 最后更新时间
   },
   plugins: [],
   Markdown: {
