@@ -34,3 +34,14 @@
 
 [coingecko](https://www.coingecko.com/zh/api/documentation)
 > coin api about(price, lsit, and more ...)
+
+
+## testnet get coin
+
+### ether
+
+[rinkby](https://rinkebyfaucet.com)
+
+### bsc
+
+[bnb](https://testnet.binance.org/faucet-smart)
