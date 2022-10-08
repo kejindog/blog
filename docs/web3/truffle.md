@@ -64,7 +64,7 @@ Truffle 推荐客户端
 
 truffle init会默认创建一个构建在以太坊内的代币demo应用。算是一个空项目
 
-<img src="/img/truffle-init.jpg" />
+<img :src="$withBase('/img/truffle-init.jpg')" />
 
 contract/ - Truffle默认的合约文件存放地址
 
@@ -82,7 +82,7 @@ truffle-config.js - Truffle的配置文件
 
 react box：react开发模板包含了在react应用中访问以太坊智能合约的所有依赖
 
-<img src="/img/truffle-unbox-react.png" />
+<img :src="$withBase('/img/truffle-unbox-react.png')" />
 
 ```js
 client/ react-web前端客户端，前端地址
@@ -164,17 +164,17 @@ truffle migrate --network ropsten  // 部署到指定的ropsten网络
 
 #### 日志输出
 
-<img src="/img/truffle1.png" />
+<img :src="$withBase('/img/truffle1.png')" />
 
 之后就能看见自己Ganache里的账户信息了
 
 block 1 就是我们刚才truffle合约发布到链上，产生的区块，点击可以查看详情
 
-<img src="/img/truffle2.png" />
+<img :src="$withBase('/img/truffle2.png')" />
 
 可以和我们 `truffle migrate` 部署的日志进行对比，发现是一致的
 
-<img src="/img/truffle3.png" />
+<img :src="$withBase('/img/truffle3.png')" />
 
 ### 交易信息
 

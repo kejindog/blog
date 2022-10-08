@@ -30,15 +30,15 @@ ganache 创建一个本地测试网络
 
 1. 打开界面
 
-<img src="/img/ganache1.png" >
+<img :src="$withBase('/img/ganache1.png')" >
 
 2. 点击 quickstart 快速生成一个本地网络，找到右边的设置按钮，点击
 
-<img src="/img/ganache2.png" >
+<img :src="$withBase('/img/ganache2.png')" >
 
 3. 注意上面的 SERVE 找到当前网络信息，需要在metamask添加网络的时候用得到
 
-<img src="/img/ganache3.png" >
+<img :src="$withBase('/img/ganache3.png')" >
 
 后续连接钱包看metamask具体设置
 
@@ -65,48 +65,48 @@ ganache 创建一个本地测试网络
 
 1. metamask 设置
 
-<img width="330" src="/img/metamask1.png" />
+<img width="330" :src="$withBase('/img/metamask1.png')" />
 
 2. 找到网络
 
-<img width="330" src="/img/metamask2.png" />
+<img width="330" :src="$withBase('/img/metamask2.png')" />
 
 3. 点击添加网络
 
-<img width="330" src="/img/metamask3.png" />
+<img width="330" :src="$withBase('/img/metamask3.png')" />
 
 4. 查看ganache 网络信息
 
-<img src="/img/ganache3.png" >
+<img :src="$withBase('/img/ganache3.png')" >
 
 5. 填写本地/链上的地址信息
 
-<img src="/img/metamask4.png" />
+<img :src="$withBase('/img/metamask4.png')" />
 
 6. 选择刚才添加的网络
 
-<img width="330" src="/img/metamask5.png" />
+<img width="330" :src="$withBase('/img/metamask5.png')" />
 
 7. 针对刚才的网络，添加账户，需要先查看ganache提供的默认10个账号中的某个私钥
 
-<img src="/img/ganache4.png" />
+<img :src="$withBase('/img/ganache4.png')" />
 
 8. 复制私钥
 
-<img src="/img/ganache5.png" />
+<img :src="$withBase('/img/ganache5.png')" />
 
 
 9. metamask 选择网络后，点击导入账户
 
-<img  width="330" src="/img/ganache6.png" />
+<img  width="330" :src="$withBase('/img/ganache6.png')" />
 
 10. 将刚才复制的私钥，写进入即可
 
-<img  width="330" src="/img/ganache7.png" />
+<img  width="330" :src="$withBase('/img/ganache7.png')" />
 
 11. 刷新即可看到余额
 
-<img  width="330" src="/img/ganache8.png" />
+<img  width="330" :src="$withBase('/img/ganache8.png')" />
 
 
 至此，我们的 metamask钱包 链接本地 ganache 创建的链就成功了，我们后面把我们写的智能合约发布到我们的本地链上即可
