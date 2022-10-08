@@ -42,6 +42,18 @@ module.exports = {
           path: 'start'
         },
         {
+          title: 'MetaMask',
+          path: 'metamask'
+        },
+        {
+          title: 'Remix IDE',
+          path: 'remix'
+        },
+        {
+          title: 'Truffle',
+          path: 'truffle'
+        },
+        {
           title: 'web3js',
           path: 'web3js'
         }
