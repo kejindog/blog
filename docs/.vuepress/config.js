@@ -14,7 +14,12 @@ module.exports = {
   // theme: '',
   themeConfig: {
     nav: [
-      { text: 'web3', link: '/web3/' },
+      { text: 'web3', ariaLabel: 'web3',
+        items: [
+          { text: '基础知识', link: '/web3/' },
+          { text: 'Defi', link: '/defi/' }
+        ]
+      },
       { text: '前端', ariaLabel: 'javascript',
         items: [
           { text: '浏览器', link: '/browser/' },
@@ -57,6 +62,12 @@ module.exports = {
           title: 'web3js',
           path: 'web3js'
         }
+      ],
+      '/defi/': [
+        {
+          title: 'sudoswap',
+          path: 'sudoswap'
+        },
       ]
     },
     sidebarDepth: 4, // 标题深度
