@@ -24,6 +24,11 @@ module.exports = {
         items: [
           { text: '浏览器', link: '/browser/' },
           { text: 'web', link: '/web/' },
+          { text: 'javascript', link: '/javascript/' },
+          { text: 'css', link: '/css/' },
+          { text: 'canvas', link: '/canvas/' },
+          { text: 'vue', link: '/vue/' },
+          { text: 'react', link: '/react/' },
         ]
       },
       { text: '资料', link: '/resource/' },
