@@ -29,6 +29,7 @@ module.exports = {
           { text: 'canvas', link: '/canvas/' },
           { text: 'vue', link: '/vue/' },
           { text: 'react', link: '/react/' },
+          { text: 'regexp', link: '/regexp/' },
         ]
       },
       { text: '资料', link: '/resource/' },
@@ -73,6 +74,10 @@ module.exports = {
           title: 'sudoswap',
           path: 'sudoswap'
         },
+      ],
+      '/react/': [
+        { title: '轮子', path: 'wheel' },
+        { title: '面试题', path: 'qs' }
       ]
     },
     sidebarDepth: 4, // 标题深度
