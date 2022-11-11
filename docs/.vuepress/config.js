@@ -20,10 +20,10 @@ module.exports = {
           { text: 'Defi', link: '/defi/' }
         ]
       },
-      { text: '前端', ariaLabel: 'javascript',
+      { text: 'web2', ariaLabel: 'javascript',
         items: [
           { text: '浏览器', link: '/browser/' },
-          { text: 'web', link: '/web/' },
+          { text: 'node', link: '/node/' },
           { text: 'javascript', link: '/javascript/' },
           { text: 'css', link: '/css/' },
           { text: 'canvas', link: '/canvas/' },
@@ -78,6 +78,10 @@ module.exports = {
       ],
       '/react/': [
         { title: '轮子', path: 'wheel' },
+        { title: '面试题', path: 'qs' }
+      ],
+      '/vue/': [
+        { title: 'vue3', path: 'vue3' },
         { title: '面试题', path: 'qs' }
       ]
     },

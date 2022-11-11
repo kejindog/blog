@@ -6,3 +6,6 @@
 
 [awesome-react （轮子集）](https://github.com/enaqx/awesome-react)
 
+[react-illustration-series](https://github.com/7kms/react-illustration-series)
+
+> 图解 React 源码系列
