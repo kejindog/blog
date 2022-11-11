@@ -33,6 +33,7 @@ module.exports = {
         ]
       },
       { text: '资料', link: '/resource/' },
+      { text: '代码规范', link: '/rule/' },
       { text: 'github', link: 'https://github.com/kejindog/blog', target:'_blank' }
     ],
     sidebar: {
