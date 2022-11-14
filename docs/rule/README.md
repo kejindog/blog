@@ -12,7 +12,7 @@
 
 [lin-123 javascript](https://github.com/lin-123/javascript)
 
-## toos
+## tools
 
 ### Eslint
 

@@ -1,12 +1,12 @@
 ## 学习网
 
 [30secondsofcode](https://www.30secondsofcode.org/)
-
 > Browse 1184 short code snippets for all your development needs on 30 seconds of code.
 
 [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
-
 > 33 Concepts Every JavaScript Developer Should Know
+
+[30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 
 [MDN](https://developer.mozilla.org/en-US/docs/Glossary/simple_header) **MDN Web Docs Glossary: Definitions of Web-related terms**
 
@@ -39,19 +39,28 @@
 [fortune-sheet](https://github.com/ruilisi/fortune-sheet)
 > FortuneSheet 是一个插入式 javascript 电子表格库，提供 Excel 和 Google Sheets 等丰富功能
 
+[reveal](https://github.com/hakimel/reveal.js)
+
+> reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+
+[flat](https://github.com/netless-io/flat)
+> 项目 flat 是 Agora Flat 开源教室的 Web 端、Windows 客户端与 macOS 客户端。支持多人视频、语音、白板互动、录制回放等功能的在线教室.
 
 
 ## viedo
 
 [video](https://github.com/videojs/video.js)
-
 >Video.js 是一个为 HTML5 世界从头开始构建的网络视频播放器。它支持 HTML5 视频和媒体源扩展，以及其他播放技术，如 YouTube 和 Vimeo（通过插件）。它支持在台式机和移动设备上播放视频。该项目于 2010 年年中开始，现在播放器已使用完毕50,000 100,000 200,000 400,000 700,000 个网站。
 
+[nativefier](https://github.com/nativefier/nativefier)
+> 专注于电影的 HTML5 播放器。容易上手和使用，支持倍速播放、快捷键操作、字幕偏移即时调整等功能
+
+[h5player](https://v2.h5player.bytedance.com/plugins/)
+> 西瓜视频播放器主张一切设计都是插件，小到一个播放按钮大到一项直播功能支持。想更好的自定义播放器完成自己业务的契合，理解插件机制是非常重要的，播放器本身有很多内置插件，比如报错、loading、重播等，如果大家想自定义效果可以关闭内置插件，自己开发即可。
 
 ## 低代码 & 无代码
 
 [nocobase](https://github.com/nocobase/nocobase)
-
 > NocoBase 是一个可扩展性优先的开源无代码开发平台。 无需编程，在数小时内使用 NocoBase 构建您自己的协作平台、管理系统。
 
 ::: warning
@@ -59,13 +68,18 @@
 :::
 
 [visual-drag-demo](https://github.com/woai3c/visual-drag-demo)
-
 > 一个低代码平台的前端部分，靠拖拉拽生成页面。
+
+[mometa](https://github.com/imcuttle/mometa)
+> mometa 不是传统主流的低代码平台（如 amis/云凤蝶），mometa 是面向研发的、代码可视设计编辑平台；它更像是 dreamweaver、gui 可视编辑 之于 程序员。
+
+[amis](https://github.com/baidu/amis)
+> 前端低代码框架，通过 JSON 配置就能生成各种后台页面，极大减少开发成本，甚至可以不需要了解前端。
+
 
 ## Editer
 
 [tinymce](https://www.tiny.cloud/)
-
 > TinyMCE gives you total control over your rich text editing. Either create a fully customized experience via the APIs or take advantage of the out-of-the-box enterprise-grade editor to build your next generation web app.
 
 [ckeditor](https://ckeditor.com/ckeditor-5/)
@@ -78,19 +92,73 @@
 > 一款开源的 Web 富文本编辑器。基于 slate.js 和 snabbdom.js 实现的富文本编辑器，支持 JS、Vue 和 React 框架。开箱即用仅需几行代码，就能实现一个功能齐全的富文本编辑器。
 
 [bytemd](https://github.com/bytedance/bytemd)
-
 > ByteMD 是一个使用 Svelte 构建的 Markdown 编辑器组件。它也可以用于其他库/框架，例如 React、Vue 和 Angular。
+
+[Milkdown](https://milkdown.dev/zh-hans/)
+> 插件驱动的所见即所得的Markdown编辑器框架
+
+[etherpad-lite](https://github.com/ether/etherpad-lite)
+> 支持实时协作的富文本 WYSIWYG 编辑器
+
 
 ## 汉字 & 拼音
 
 [cnchar](https://github.com/theajack/cnchar)
-
 > 功能全面、多端支持的汉字拼音笔画 js 库
+
+[handle](https://github.com/antfu/handle)
+> 汉字版 Wordle 游戏。在线试玩
+
 
 
 ## 随机
 
 [nanoid](https://github.com/ai/nanoid)
-
 > 一个小巧、安全、URL友好、唯一的 JavaScript 字符串ID生成器。
 
+
+## 动画
+
+[lax.js](https://github.com/alexfoxy/lax.js)
+> Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.
+
+
+## 事件
+
+[tinykeys](https://github.com/jamiebuilds/tinykeys)
+> 键盘事件监听库
+
+## 新手指引 | 操作引导
+
+[shepherd](https://github.com/shipshapecode/shepherd) [Document](https://shepherdjs.dev/docs/) [Demo](https://shepherdjs.dev/)
+> 用来引导用户浏览网站的 JavaScript 库
+
+## UI Repo
+
+[arco-design](https://github.com/arco-design/arco-design)
+> 基于 ArcoDesign 的 React/Vue UI 组件库。包含 60 多个开箱即用的高质量组件，还提供了可视化的样式配置平台，可用于快速构建企业级管理后台
+
+[semaphore](https://github.com/ansible-semaphore/semaphore) [Document](https://docs.ansible-semaphore.com/administration-guide/installation)
+> Ansible Semaphore 是 Ansible 的现代 UI。 它使您可以轻松运行 Ansible playbook、获取有关失败的通知、控制对部署系统的访问。
+
+[ChatUI](https://github.com/alibaba/ChatUI)
+> 专注于对话领域的 UI 开源项目。可以帮助用户快速搭建体验友好的机器人对话界面
+
+
+## 桌面
+
+[rubick](https://github.com/rubickCenter/rubick)
+> 基于 electron 的开源工具箱，自由集成丰富插件，打造极致的桌面端效能工具。Rubick(拉比克) 是 dota 里面的英雄之一，其核心技能是插件化使用其他英雄的技能，用完即走。非常符合本工具的设计理念，所以取名 Rubick。
+
+[edex-ui](https://github.com/GitSquared/edex-ui)
+> 跨平台终端工具。好莱坞级别的终端使用体验，直观地展示文件目录、系统资源、网络等信息
+
+## crypto(加密)
+
+[sjcl](https://github.com/bitwiseshiftleft/sjcl)
+> 斯坦福大学开源的 JavaScript 加密库。用于 JS 的加密和解密，体积小且支持多种加密算法
+
+## database
+
+[lowdb](https://github.com/typicode/lowdb)
+> 简单易用的本地 JSON 数据库。使用原生 JavaScript API 进行查询。用 TypeScript 编写。
