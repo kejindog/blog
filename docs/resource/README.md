@@ -12,6 +12,9 @@
 
 **封面制作** [canva](https://www.canva.cn/)
 
+**生成人物头像** [Multiavatar](https://github.com/multiavatar/Multiavatar) [Document](https://multiavatar.com/)
+**头像生成 React** [avataaars-generator](https://github.com/fangpenlin/avataaars-generator)
+
 **自动生成由文字/颜色/图片/纹理元素组成的壁纸** [colorfu](https://github.com/pearmini/colorfu)
 
 **流程图工具 支持多人协同** [excalidraw](https://excalidraw.com/)
@@ -39,12 +42,16 @@
 **阿里icon**[iconfont](https://www.iconfont.cn/)
 
 **iconpark** [iconpark](https://iconpark.oceanengine.com/home)
-
-图标、插画、项目制、支持 下载 vue、react 组件化svg
+>图标、插画、项目制、支持 下载 vue、react 组件化svg
 
 [天气图标](https://github.com/erikflowers/weather-icons)
+>天气主题图标和 CSS 文件。包含 220+ 个高质量的天气图标
 
-天气主题图标和 CSS 文件。包含 220+ 个高质量的天气图标
+[IconPark](https://github.com/bytedance/IconPark)
+> IconPark提供2000个个图标图标，并且并且了一界面来帮帮你定制定制定制图标图标与与使用使用使用各各各各各源源源源源源文件来来来达到达到达到达到换肤换肤换肤换肤换肤效果改变一个SVG文件的属性来改变出多种主题。并支持跨平台导出多种图标代码库，方便您在代码中以组合件的形状react-icons，vue-icons和svg-icons. 所以不管您是设计师还是开发者，都可以在您的项目中去使用IconPark。
+
+[css.gg](https://github.com/astrit/css.gg)
+> 开源图标 UI 库。支持 CSS、SVG、Figma、NPM 等
 
 
 
@@ -78,19 +85,25 @@ gitbook
 [cusdis](https://github.com/djyde/cusdis) [Document](https://cusdis.com/)
 > 轻量级博客评论系统。可以很方便地与 React、Vue 或其他博客系统结合，并且还提供了一个后台来管理所有的评论。除此之外，还支持一键从 Disqus 导入、邮件通知等强大的功能
 
+[folio-2019](https://github.com/brunosimon/folio-2019)
+>  3D 博客
 
 
 ## 快速建站工具
 
 [payload](https://github.com/payloadcms/payload)
-
 > 一个免费的开源 TypeScript 无头 CMS 和应用程序框架，使用 Express、MongoDB 和 React 构建。
 
 
 ## 简历 online
 
 [resume](https://github.com/visiky/resume) [online](https://visiky.github.io/resume/?mode=edit&template=template1)
-
 > 在线简历生成器。轻松实现在线简历，支持在线预览、编辑和下载 PDF 简历。在线尝试
 
 
+## 监控告警
+
+[monitor](https://github.com/clouDr-f2e/monitor)
+* 请求错误和代码报错上传
+* 收集用户点击、跳转行为
+* 支持 React、Vue、微信小程序

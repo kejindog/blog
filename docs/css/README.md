@@ -30,7 +30,14 @@
 [pattern](https://github.com/bansal/pattern.css)
 > 背景图填充
 
+[water.css](https://github.com/kognise/water.css)
+> 一个简单的 CSS 样式集合
 
+[tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+> 易于定制，适用于任何设计，而且构建尺寸很小
+
+[papercss](https://github.com/papercss/papercss)
+> 手绘风格
 
 
 ## animate

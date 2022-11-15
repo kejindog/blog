@@ -14,3 +14,7 @@
 
 [iDataV](https://github.com/yyhsong/iDataV)
 > 一些大屏场景
+
+[X6](https://github.com/antvis/X6)
+> 提供简单易用的节点定制能力和开箱即用的交互组件，方便我们快速搭建流程图、DAG 图、ER 图等图应用
+

@@ -13,3 +13,6 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 [automa](https://github.com/AutomaApp/automa)
 > 自动填写表格、执行重复性任务、截屏或抓取网站数据——选择权在您手中。您甚至可以安排自动化何时执行！
 
+[screenity](https://github.com/alyssaxuu/screenity)
+> 屏幕录制
+

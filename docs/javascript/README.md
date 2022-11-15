@@ -46,7 +46,14 @@
 [flat](https://github.com/netless-io/flat)
 > 项目 flat 是 Agora Flat 开源教室的 Web 端、Windows 客户端与 macOS 客户端。支持多人视频、语音、白板互动、录制回放等功能的在线教室.
 
+[x-spreadsheet](https://github.com/myliang/x-spreadsheet) [Document](https://hondrytravis.com/x-spreadsheet-doc/)
+> 基于 JavaScript 快速构建 Web Excel
 
+[mind-elixir-core](https://github.com/ssshooter/mind-elixir-core) [Try](https://mind-elixir.com/#/) [DOcument](https://doc.mind-elixir.com/)
+> 一款免费开源的思维导图 JS 库。
+
+[ce](https://github.com/jspreadsheet/ce)
+> 一个轻量级、功能强大的电子表格库。轻松实现复杂数据的表格管理，支持 JS 数组、JSON、CSV 等数据，并且可以实现 excel 文件的直接复制和粘贴。
 ## viedo
 
 [video](https://github.com/videojs/video.js)
@@ -76,6 +83,15 @@
 [amis](https://github.com/baidu/amis)
 > 前端低代码框架，通过 JSON 配置就能生成各种后台页面，极大减少开发成本，甚至可以不需要了解前端。
 
+[h5-Dooring](https://github.com/MrXujiang/h5-Dooring)
+> H5-Dooring是一款功能强大、开源、免费的H5可视化页面配置解决方案，致力于提供一套简单、方便、专业、可靠、无限量的H5着陆页最佳实践。技术栈主要是react，后台使用nodejs开发。
+
+[brick-design](https://github.com/brick-design/brick-design)
+> 基于 React 组件的可视化拖拽、搭建页面的代码生成工具
+
+[form-create](https://github.com/xaboy/form-create)
+> 一个可以通过 JSON 自动生成具有动态渲染、数据收集、验证和提交功能的表单生成器。结合内置多种常用表单组件和自定义组件，轻松搞定复杂的表单，支持 iview、element-ui、and-design-vue
+
 
 ## Editer
 
@@ -100,6 +116,16 @@
 [etherpad-lite](https://github.com/ether/etherpad-lite)
 > 支持实时协作的富文本 WYSIWYG 编辑器
 
+[tui.image-editor](https://github.com/nhn/tui.image-editor)
+> 使用 HTML5 Canvas 的全功能图像编辑器。
+
+[blockly](https://github.com/google/blockly)
+> Google 的 Blockly 是一个向网络和移动应用程序添加可视化代码编辑器的库。Blockly 编辑器使用互锁图形块来表示变量、逻辑表达式、循环等代码概念。它允许用户应用编程原则，而不必担心语法或命令行上闪烁光标的威胁。所有代码都是免费和开源的。
+
+[Zettlr](https://github.com/Zettlr/Zettlr)
+> Zettlr 是一款基于Electron的 Markdown 编辑器
+
+
 
 ## 汉字 & 拼音
 
@@ -121,6 +147,9 @@
 
 [lax.js](https://github.com/alexfoxy/lax.js)
 > Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.
+
+[typical](https://github.com/camwiegert/typical)
+> 零依赖、仅 400 字节的输入动画库
 
 
 ## 事件
@@ -144,6 +173,10 @@
 [ChatUI](https://github.com/alibaba/ChatUI)
 > 专注于对话领域的 UI 开源项目。可以帮助用户快速搭建体验友好的机器人对话界面
 
+[next](https://github.com/alibaba-fusion/next)
+> 一套企业级中后台UI的解决方案，致力于解决设计师与前端在工作协同、产品体验一致性、开发效率方面的问题
+
+
 
 ## 桌面
 
@@ -162,3 +195,26 @@
 
 [lowdb](https://github.com/typicode/lowdb)
 > 简单易用的本地 JSON 数据库。使用原生 JavaScript API 进行查询。用 TypeScript 编写。
+
+
+## 测试
+
+[majestic](https://github.com/Raathigesh/majestic)
+> 美观且便捷的 JavaScript 测试框架 Jest 的图形界面工具。
+
+[remote-browser](https://github.com/intoli/remote-browser)
+> 自动化测试、抓取数据
+
+[perfume.js](https://github.com/Zizzamia/perfume.js)
+> Perfume 是一个微小的网络性能监控库，可以将数据报告给你最喜欢的分析工具。
+
+## OCR
+
+[tesseract.js](https://github.com/naptha/tesseract.js)
+> 支持多种语言的文字识别的 JS 库
+
+## 录屏
+
+[TimeCat](https://github.com/oct16/TimeCat)
+> TimeCat 是一个完全开源的网页录制工具，生成的文件不是真正的视频，但可以像真正的视频一样进行播放，完美的还原用户在浏览器中的操作行为
+

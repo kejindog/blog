@@ -5,3 +5,10 @@
 [eruda](https://github.com/liriliri/eruda)
 > 一个专为手机端设计的前端页面调试工具。类似手机端迷你版开发者模式，可用于在手机端调试页面。主要功能包括：显示 console 日志、检查元素状态、捕获 XHR 请求、显示本地存储和 Cookie 等信息
 
+[zooming](https://github.com/kingdido999/zooming)
+> 移动端缩放
+
+## UI repo
+
+[vant](https://github.com/youzan/vant)
+> 有赞前端团队开源的移动端组件库. 支持 vue 小程序
