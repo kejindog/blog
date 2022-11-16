@@ -16,3 +16,6 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 [screenity](https://github.com/alyssaxuu/screenity)
 > 屏幕录制
 
+[chrome-plugin-demo](https://github.com/sxei/chrome-plugin-demo)
+> Chrome 插件开发完整教程，可用来学习插件开发
+

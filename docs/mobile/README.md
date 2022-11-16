@@ -8,6 +8,9 @@
 [zooming](https://github.com/kingdido999/zooming)
 > 移动端缩放
 
+[vConsole](https://github.com/Tencent/vConsole)
+> 腾讯开源的移动 H5 的控制台开发调试工具，支持查看 console 日志、网络请求、自定义插件等
+
 ## UI repo
 
 [vant](https://github.com/youzan/vant)

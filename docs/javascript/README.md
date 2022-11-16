@@ -10,12 +10,28 @@
 
 [MDN](https://developer.mozilla.org/en-US/docs/Glossary/simple_header) **MDN Web Docs Glossary: Definitions of Web-related terms**
 
+[javascript-questions](https://github.com/lydiahallie/javascript-questions)
+> JavaScript 进阶问题列表，包含答案。
+
+[javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+> 包含了多种基于 JavaScript 的算法与数据结构
+
+[project-guidelines](https://github.com/elsewhencode/project-guidelines)
+> JavaScript 项目规范
+
+[wtfjs](https://github.com/denysdovhan/wtfjs)
+> JavaScript 有趣和棘手的示例
 
 ## 函数工具库
 
 [lodash](https://github.com/lodash/lodash)
 
 [underscore](https://underscorejs.org/) [github](https://github.com/jashkenas/underscore)
+
+[licia](https://github.com/liriliri/licia)
+> Licia 是一套在开发中实践积累起来的实用 JavaScript 工具库。该库目前拥有超过 400 个模块，包括 Dom 操作，cookie 设置，类创建，模板函数，日期格式化等实用模块，同时配套有打包工具 Eustia 进行定制化，使JS脚本加载量缩减在 10KB 以下，极大优化移动端页面的加载速度。
+
+
 
 
 ## 日期
@@ -125,9 +141,15 @@
 [Zettlr](https://github.com/Zettlr/Zettlr)
 > Zettlr 是一款基于Electron的 Markdown 编辑器
 
+[gods-pen](https://github.com/ymm-tech/gods-pen)
+> 一个在线生成 H5 页面的平台
+
+::: warning
+很久没更新了
+:::
 
 
-## 汉字 & 拼音
+## 汉字 & 拼音 & 阿拉伯数字
 
 [cnchar](https://github.com/theajack/cnchar)
 > 功能全面、多端支持的汉字拼音笔画 js 库
@@ -135,7 +157,13 @@
 [handle](https://github.com/antfu/handle)
 > 汉字版 Wordle 游戏。在线试玩
 
+[nzh](https://github.com/cnwhy/nzh)
+> 阿拉伯数字与中文数字相互转化
 
+## 文本
+
+[clipboard.js](https://github.com/zenorocha/clipboard.js)
+> 将文本复制到剪贴板应该不难。它不应该需要几十个步骤来配置或加载数百 KB。但最重要的是，它不应依赖于 Flash 或任何臃肿的框架。
 
 ## 随机
 
@@ -151,11 +179,19 @@
 [typical](https://github.com/camwiegert/typical)
 > 零依赖、仅 400 字节的输入动画库
 
+[fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+> fullPage 可轻易创建全屏滚动网站（也称为单页网站）
+
+[waitForImages](https://github.com/alexanderdickson/waitForImages)
+> 加载后代图像后提供有用的回调
 
 ## 事件
 
 [tinykeys](https://github.com/jamiebuilds/tinykeys)
 > 键盘事件监听库
+
+[hotkeys](https://github.com/jaywcjlove/hotkeys)
+> 一个强健的 Javascript 库用于捕获键盘输入和输入的组合键
 
 ## 新手指引 | 操作引导
 
@@ -176,7 +212,8 @@
 [next](https://github.com/alibaba-fusion/next)
 > 一套企业级中后台UI的解决方案，致力于解决设计师与前端在工作协同、产品体验一致性、开发效率方面的问题
 
-
+[sweetalert](https://github.com/t4t5/sweetalert)
+> 纯 JS 写成的 alert 组件
 
 ## 桌面
 
@@ -197,7 +234,7 @@
 > 简单易用的本地 JSON 数据库。使用原生 JavaScript API 进行查询。用 TypeScript 编写。
 
 
-## 测试
+## 测试 | 调试
 
 [majestic](https://github.com/Raathigesh/majestic)
 > 美观且便捷的 JavaScript 测试框架 Jest 的图形界面工具。
@@ -208,6 +245,8 @@
 [perfume.js](https://github.com/Zizzamia/perfume.js)
 > Perfume 是一个微小的网络性能监控库，可以将数据报告给你最喜欢的分析工具。
 
+[whistle](https://github.com/avwo/whistle)
+> 基于 Node.js 实现的跨平台 web 调试代理工具，类似于 Windows 平台上的 Fiddler
 ## OCR
 
 [tesseract.js](https://github.com/naptha/tesseract.js)
@@ -218,3 +257,35 @@
 [TimeCat](https://github.com/oct16/TimeCat)
 > TimeCat 是一个完全开源的网页录制工具，生成的文件不是真正的视频，但可以像真正的视频一样进行播放，完美的还原用户在浏览器中的操作行为
 
+
+## color
+
+[chroma.js](https://github.com/gka/chroma.js)
+> 颜色转换
+
+## download | upload
+
+[FileSaver.js](https://github.com/eligrey/FileSaver.js)
+> 文件保存
+
+[filepond](https://github.com/pqina/filepond)
+> 文件上传
+
+## code build
+
+[swc](https://github.com/swc-project/swc)
+> SWC（代表Speedy Web Compiler）是一个用 Rust 编写的超快 TypeScript / JavaScript 编译器
+
+1. 企业消息交换服务 测试以及问题修复
+  a. 应用名过长时添加\编辑主题页面样式展示优化
+  b. 角色管理，子选项未选中时，增加父选项选中全选
+  c. 修正历史告警信息时间显示错误
+2. 容器云平台 增加快捷菜单部署到测试环境并测试
+3. 学习ansible
+4. 处理生产环境告警问题
+
+
+## code format
+
+[standard](https://github.com/standard/standard)
+> avaScript 代码规范，自带 linter & 代码自动修改

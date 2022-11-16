@@ -7,6 +7,14 @@
 * 总结一些常用的 CSS 样式
 * 记录一些 CSS 的新属性和一点奇技淫巧
 * 在“动”部分下有些动画并不是 CSS 效果，因为没有地方放置，所以暂时寄存在这里
+
+[iCSS](https://github.com/chokcoco/iCSS)
+> CSS 奇技淫巧，在这里，都有。
+
+[CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration)
+> 这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。
+
+
 ## widget
 
 [100 CSS Buttons](https://github.com/ui-buttons/core)
@@ -39,6 +47,17 @@
 [papercss](https://github.com/papercss/papercss)
 > 手绘风格
 
+[pure](https://github.com/pure-css/pure)
+> 雅虎公司出品的一组轻量级、响应式纯 CSS 模块
+
+[milligram](https://github.com/milligram/milligram)
+> 极简风格的 CSS 框架
+
+[materialize](https://github.com/Dogfalo/materialize)
+> 基于 Material Design 的现代响应式前端框架
+
+[bulma](https://github.com/jgthms/bulma)
+> UI框架，样式比 Bootstrap 更加扁平化
 
 ## animate
 
@@ -49,3 +68,6 @@
 > 用 CSS 实现抖动效果
 
 [You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript)
+
+[SpinKit](https://github.com/tobiasahlin/SpinKit)
+> 加载动画

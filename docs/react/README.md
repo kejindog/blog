@@ -25,6 +25,13 @@
 [use-gesture](https://github.com/pmndrs/use-gesture)
 > 手势
 
+[ice](https://github.com/alibaba/ice)
+> 基于 React 的渐进式研发框架
+
+[ant-design](https://github.com/ant-design/ant-design)
+> 里开源的一套企业级的 UI 设计语言和 React 实现
+
+
 ## Components
 
 [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
@@ -33,3 +40,18 @@
 [react-trello](https://github.com/rcdexta/react-trello)
 > React 列表拖拽库
 
+[react-loading](https://github.com/Summer-andy/react-loading)
+
+::: warning
+很久没维护了
+:::
+
+[react-text-loop](https://github.com/braposo/react-text-loop)
+> 实现文字循环展示的 React 组件
+
+[chart-race-react](https://github.com/bchao1/chart-race-react)
+> 长图赛跑
+
+::: warning
+很久没维护了
+:::

@@ -18,3 +18,29 @@
 [X6](https://github.com/antvis/X6)
 > 提供简单易用的节点定制能力和开箱即用的交互组件，方便我们快速搭建流程图、DAG 图、ER 图等图应用
 
+[G2](https://github.com/antvis/G2)
+> G2 是一个可视化语法，用于报表搭建、数据探索和可视化叙事。
+
+[SandDance](https://github.com/microsoft/SandDance)
+> 微软开源的数据可视化库。使用单元可视化，将数据库中的行一对一映射到屏幕中。在进行数据交互时，视图可无缝平滑过渡
+
+[chart.xkcd](https://github.com/timqian/chart.xkcd)
+> 手绘风格的图表库
+
+[zdog](https://github.com/metafizzy/zdog)
+> 拿来即用的3d模型
+
+[Chart.js](https://github.com/chartjs/Chart.js)
+> 基于 canvas 的可视化库。可用于构建简单的 H5 图表
+
+[d3](https://github.com/d3/d3)
+> D3 的全称是（Data-Driven Documents），该库提供了各种简单易用的函数，大大简化了 JavaScript 操作数据的难度。
+
+[G6](https://github.com/antvis/G6)
+> 图分析引擎
+
+[echarts](https://github.com/apache/echarts)
+> 百度开源 图表工具
+
+[BizCharts](https://github.com/alibaba/BizCharts)
+> 蚂蚁出品的基于 React 的图表库

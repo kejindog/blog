@@ -53,7 +53,17 @@
 [css.gg](https://github.com/astrit/css.gg)
 > 开源图标 UI 库。支持 CSS、SVG、Figma、NPM 等
 
+[RemixIcon](https://github.com/Remix-Design/RemixIcon)
+> Remix Icon 是一套面向设计师和开发者的开源图标库。我们在设计之初将图标风格定义为中性风格，以便适用于各种用户群的项目。与拼凑混搭的图标库不同，Remix Icon 的每一枚图标都是由设计师按照统一规范精心绘制的，并确保每一枚图标在拥有完美像素对齐的基础上风格一致且简洁易读。图标以24x24网格为基准，分为“线性图标”和“面型图标”两种风格。所有的图标均可免费用于个人项目和商业项目，Enjoy it~
 
+[octicons](https://github.com/primer/octicons)
+> GitHub 官方开源的 GitHub 网站上用的图标库
+
+[simple-icons](https://github.com/simple-icons/simple-icons)
+> 1000+ 个流行品牌的免费 SVG 图标库
+
+[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+> GitHub 上 Star 数最多的图标库
 
 ## coding online
 
@@ -107,3 +117,4 @@ gitbook
 * 请求错误和代码报错上传
 * 收集用户点击、跳转行为
 * 支持 React、Vue、微信小程序
+
