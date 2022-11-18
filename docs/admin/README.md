@@ -10,4 +10,9 @@
 [DoraCMS](https://github.com/doramart/DoraCMS)
 > 基于 Nodejs + eggjs + Mongodb 编写的内容管理系统。项目结构清晰、易于拓展，适合前端开发工程师做二次开发
 
+[chemex](https://github.com/celaraze/chemex)
+> 遵循 GPL3.0 开源协议 的开源资产管理系统
+
+[snipe-it](https://github.com/snipe/snipe-it)
+> Snipe-IT - 开源资产管理系统
 
