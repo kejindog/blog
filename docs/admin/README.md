@@ -16,3 +16,9 @@
 [snipe-it](https://github.com/snipe/snipe-it)
 > Snipe-IT - 开源资产管理系统
 
+[semaphore](https://github.com/ansible-semaphore/semaphore)
+> Ansible Semaphore is a modern UI for Ansible. It lets you easily run Ansible playbooks, get notifications about fails, control access to deployment system.
+
+[onlyoffice](https://github.com/ONLYOFFICE/docker-onlyoffice-nextcloud)
+> Document Server (distributed as ONLYOFFICE Docs starting from v.6.0) and Nextcloud Docker installation will install the preconfigured version of ONLYOFFICE Document Server connected to Nextcloud to your server running them in Docker containers.
+
