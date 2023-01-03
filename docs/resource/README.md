@@ -37,34 +37,6 @@
 
 > DiceBear 是一个供设计师和开发人员使用的头像库。
 
-## iconfont
-
-**阿里icon**[iconfont](https://www.iconfont.cn/)
-
-**iconpark** [iconpark](https://iconpark.oceanengine.com/home)
->图标、插画、项目制、支持 下载 vue、react 组件化svg
-
-[天气图标](https://github.com/erikflowers/weather-icons)
->天气主题图标和 CSS 文件。包含 220+ 个高质量的天气图标
-
-[IconPark](https://github.com/bytedance/IconPark)
-> IconPark提供2000个个图标图标，并且并且了一界面来帮帮你定制定制定制图标图标与与使用使用使用各各各各各源源源源源源文件来来来达到达到达到达到换肤换肤换肤换肤换肤效果改变一个SVG文件的属性来改变出多种主题。并支持跨平台导出多种图标代码库，方便您在代码中以组合件的形状react-icons，vue-icons和svg-icons. 所以不管您是设计师还是开发者，都可以在您的项目中去使用IconPark。
-
-[css.gg](https://github.com/astrit/css.gg)
-> 开源图标 UI 库。支持 CSS、SVG、Figma、NPM 等
-
-[RemixIcon](https://github.com/Remix-Design/RemixIcon)
-> Remix Icon 是一套面向设计师和开发者的开源图标库。我们在设计之初将图标风格定义为中性风格，以便适用于各种用户群的项目。与拼凑混搭的图标库不同，Remix Icon 的每一枚图标都是由设计师按照统一规范精心绘制的，并确保每一枚图标在拥有完美像素对齐的基础上风格一致且简洁易读。图标以24x24网格为基准，分为“线性图标”和“面型图标”两种风格。所有的图标均可免费用于个人项目和商业项目，Enjoy it~
-
-[octicons](https://github.com/primer/octicons)
-> GitHub 官方开源的 GitHub 网站上用的图标库
-
-[simple-icons](https://github.com/simple-icons/simple-icons)
-> 1000+ 个流行品牌的免费 SVG 图标库
-
-[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
-> GitHub 上 Star 数最多的图标库
-
 ## coding online
 
 [codesandbox](https://codesandbox.io/)

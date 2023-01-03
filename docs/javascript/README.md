@@ -70,6 +70,9 @@
 
 [ce](https://github.com/jspreadsheet/ce)
 > 一个轻量级、功能强大的电子表格库。轻松实现复杂数据的表格管理，支持 JS 数组、JSON、CSV 等数据，并且可以实现 excel 文件的直接复制和粘贴。
+
+[slidev](https://github.com/slidevjs/slidev)
+> 使用 纯文本+Markdown 语法制作幻灯片
 ## viedo
 
 [video](https://github.com/videojs/video.js)
