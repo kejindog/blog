@@ -36,6 +36,14 @@ module.exports = {
         ]
       },
       { text: '资料', link: '/resource/' },
+      { text: 'Essay', ariaLabel: 'Essay',
+        items: [
+          { text: 'db', link: '/essay/db/' },
+          { text: 'kv', link: '/essay/kv/' },
+          { text: 'mq', link: '/essay/mq/' },
+          { text: 'log', link: '/essay/log/' },
+        ]
+      },
       { text: '代码规范', link: '/rule/' },
       { text: 'github', link: 'https://github.com/kejindog/blog', target:'_blank' }
     ],
