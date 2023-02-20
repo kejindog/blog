@@ -62,6 +62,9 @@
 [bulma](https://github.com/jgthms/bulma)
 > UI框架，样式比 Bootstrap 更加扁平化
 
+[Primer CSS](https://github.com/primer/css)
+> GitHub的Primer Design System的CSS实现
+
 ## animate
 
 [magic](https://github.com/miniMAC/magic) [Demo](https://www.minimamente.com/project/magic/)

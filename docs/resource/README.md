@@ -1,5 +1,7 @@
 ## 工具网站
 
+[downkyi](https://github.com/leiurayer/downkyi) **B 站视频下载工具**
+
 [pdf](https://www.aliyundrive.com/s/9CYxCyFCDnd) 解压码： **sd08**
 
 **压缩图片** [tingpng](https://tinypng.com/)[squoosh](https://squoosh.app/)
