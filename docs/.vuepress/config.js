@@ -33,6 +33,7 @@ module.exports = {
           { text: 'react', link: '/react/' },
           { text: 'regexp', link: '/regexp/' },
           { text: 'vue', link: '/vue/' },
+          { text: 'npm', link: '/npm/' },
         ]
       },
       { text: '资料', link: '/resource/' },
@@ -94,6 +95,9 @@ module.exports = {
       '/vue/': [
         { title: 'vue3', path: 'vue3' },
         { title: '面试题', path: 'qs' }
+      ],
+      '/npm/': [
+        { title: '常见问题', path: 'question' }
       ]
     },
     sidebarDepth: 4, // 标题深度
