@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as n}from"./framework-1a5a6c94.js";const r={},s=e("h2",{id:"defi",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#defi","aria-hidden":"true"},"#"),n(" Defi")],-1),d=[s];function o(i,_){return a(),c("div",null,d)}const h=t(r,[["render",o],["__file","index.html.vue"]]);export{h as default};
