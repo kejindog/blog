@@ -72,6 +72,24 @@ gitbook
 [folio-2019](https://github.com/brunosimon/folio-2019)
 >  3D 博客
 
+[docusaurus](https://www.docusaurus.cn/)
+> ⚡️ Docusaurus will help you ship a beautiful documentation site in no time.
+
+[jekyll](https://github.com/jekyll/jekyll)
+> Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server.
+
+[docsify](https://github.com/docsifyjs/docsify)
+> Docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an index.html and deploy it on GitHub Pages.
+
+[sphinx](https://github.com/sphinx-doc/sphinx)
+> Sphinx uses reStructuredText as its markup language, and many of its strengths come from the power and straightforwardness of reStructuredText and its parsing and translating suite, the Docutils.
+
+[readthedocs](https://readthedocs.org/)
+> Read the Docs 为您提供自动构建，版本控制以及内容托管来简化技术文档流程。
+
+[mkdocs](https://github.com/mkdocs/mkdocs)
+> MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. It is designed to be easy to use and can be extended with third-party themes, plugins, and Markdown extensions.
+
 
 ## 快速建站工具
 

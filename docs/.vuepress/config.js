@@ -1,4 +1,10 @@
-module.exports = {
+import { defaultTheme } from 'vuepress'
+import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+
+export default {
   configureWebpack: {
     resolve: {
       alias: {
@@ -11,18 +17,17 @@ module.exports = {
   description: 'kejindog blog',
   head: [],
   extraWatchFiles: [],
-  // theme: '',
-  themeConfig: {
-    nav: [
-      { text: 'web3', ariaLabel: 'web3',
-        items: [
+  theme: defaultTheme({
+    navbar: [
+      { text: 'web3',
+        children: [
           { text: '基础知识', link: '/web3/' },
           { text: 'Defi', link: '/defi/' }
         ]
       },
-      { text: 'web2', ariaLabel: 'javascript',
-        items: [
-          { text: 'admin', link: '/admin/' },
+      { text: 'web2',
+        children: [
+          { text: 'admin', link: '/admins/' },
           { text: 'browser', link: '/browser/' },
           { text: 'css', link: '/css/' },
           { text: 'canvas', link: '/canvas/' },
@@ -37,8 +42,8 @@ module.exports = {
         ]
       },
       { text: '资料', link: '/resource/' },
-      { text: 'Essay', ariaLabel: 'Essay',
-        items: [
+      { text: 'Essay',
+        children: [
           { text: 'db', link: '/essay/db/' },
           { text: 'kv', link: '/essay/kv/' },
           { text: 'mq', link: '/essay/mq/' },
@@ -51,60 +56,88 @@ module.exports = {
     sidebar: {
       '/web3/': [
         {
-          title: '常见链接',
-          path: 'Links',
-          // collapsable: false, // 可选的, 默认值是 true,
-          // sidebarDepth: 1,    // 可选的, 默认值是 1
-          // children: []
-        },
+          text: 'web3',
+          children: [
+            {
+              text: '常见链接',
+              link: '/web3/Links.md',
+            },
+            {
+              text: '你需要了解的关键字',
+              link: 'keys'
+            },
+            {
+              text: '初识web3.0',
+              link: 'start'
+            },
+            {
+              text: 'MetaMask',
+              link: 'metamask'
+            },
+            {
+              text: 'Remix IDE',
+              link: 'remix'
+            },
+            {
+              text: 'Truffle',
+              link: 'truffle'
+            },
+            {
+              text: 'web3js',
+              link: 'web3js'
+            }
+          ]
+        }
+      ],
+      '/react/': [
         {
-          title: '你需要了解的关键字',
-          path: 'keys'
-        },
+          text: 'react',
+          children: [
+            { text: '轮子', link: 'wheel' },
+            { text: '面试题', link: 'qs' }
+          ]
+        }
+      ],
+      '/vue/': [
         {
-          title: '初识web3.0',
-          path: 'start'
-        },
+          text: 'vue',
+          children: [
+            { text: 'vue3', link: 'vue3' },
+            { text: '面试题', link: 'qs' }
+          ]
+        }
+      ],
+      '/npm/': [
         {
-          title: 'MetaMask',
-          path: 'metamask'
-        },
-        {
-          title: 'Remix IDE',
-          path: 'remix'
-        },
-        {
-          title: 'Truffle',
-          path: 'truffle'
-        },
-        {
-          title: 'web3js',
-          path: 'web3js'
+          text: 'npm',
+          children: [
+            { title: '常见问题', path: 'question' }
+          ]
         }
       ],
       '/defi/': [
         {
-          title: 'sudoswap',
-          path: 'sudoswap'
-        },
-      ],
-      '/react/': [
-        { title: '轮子', path: 'wheel' },
-        { title: '面试题', path: 'qs' }
-      ],
-      '/vue/': [
-        { title: 'vue3', path: 'vue3' },
-        { title: '面试题', path: 'qs' }
-      ],
-      '/npm/': [
-        { title: '常见问题', path: 'question' }
+          text: 'defi',
+          children: [
+            {
+              title: 'sudoswap',
+              path: 'sudoswap'
+            },
+          ]
+        }
       ]
     },
     sidebarDepth: 4, // 标题深度
-    displayAllHeaders: true, // 显示所有标题
+    // displayAllHeaders: true, // 显示所有标题
     lastUpdated: 'Last Updated', // 最后更新时间
-  },
-  plugins: [],
+    lastUpdatedText: '更新时间'
+  }),
+  plugins: [
+    searchPlugin({}),
+    backToTopPlugin(),
+    nprogressPlugin(),
+    vuepressPluginAnchorRight()
+  ],
   Markdown: {
     lineNumbers: true
   }
