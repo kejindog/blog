@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1897a9e7","path":"/react/wheel.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679466575000,"contributors":[{"name":"zhangzhongren","email":"657095434@qq.com","commits":1}]},"filePathRelative":"react/wheel.md"}');export{e as data};

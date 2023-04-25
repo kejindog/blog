@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-aa7f09a6","path":"/regexp/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"RegExp","slug":"regexp","link":"#regexp","children":[]}],"git":{"updatedTime":1679466575000,"contributors":[{"name":"zhangzhongren","email":"657095434@qq.com","commits":1}]},"filePathRelative":"regexp/README.md"}');export{e as data};
