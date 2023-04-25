@@ -19,6 +19,12 @@ export default {
   extraWatchFiles: [],
   theme: defaultTheme({
     navbar: [
+      {
+        text: 'web服务器',
+        children: [
+          { text: 'nginx', link: '/nginx/' },
+        ]
+      },
       { text: 'web3',
         children: [
           { text: '基础知识', link: '/web3/' },
@@ -54,6 +60,17 @@ export default {
       { text: 'github', link: 'https://github.com/kejindog/blog', target:'_blank' }
     ],
     sidebar: {
+      '/nginx/': [
+        {
+          text: 'nginx',
+          children: [
+            {
+              text: 'nginx 学习计划',
+              link: '/nginx/README.md',
+            }
+          ]
+        }
+      ],
       '/web3/': [
         {
           text: 'web3',

@@ -24,7 +24,7 @@
     "vuepress": "^2.0.0-beta.60"
   },
   "dependencies": {
-    "vuepress-plugin-anchor-right": "^0.0.1-beta.7",
+    "vuepress-plugin-anchor-right": "^0.0.1-beta.13",
     "vuepress-plugin-right-anchor": "^0.5.5"
   }
 }

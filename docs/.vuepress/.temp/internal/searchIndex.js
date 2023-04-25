@@ -8,74 +8,8 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "systems",
-        "slug": "systems",
-        "link": "#systems",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "资产管理",
-        "slug": "资产管理",
-        "link": "#资产管理",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "埋点",
-        "slug": "埋点",
-        "link": "#埋点",
-        "children": []
-      }
-    ],
-    "path": "/admins/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
     "headers": [],
     "path": "/canvas/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "图表",
-        "slug": "图表",
-        "link": "#图表",
-        "children": []
-      }
-    ],
-    "path": "/chart/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1. 禁用max chrome 浏览器横向滚动触发翻页",
-        "slug": "_1-禁用max-chrome-浏览器横向滚动触发翻页",
-        "link": "#_1-禁用max-chrome-浏览器横向滚动触发翻页",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "插件",
-        "slug": "插件",
-        "link": "#插件",
-        "children": []
-      }
-    ],
-    "path": "/browser/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -119,6 +53,21 @@ export const searchIndex = [
       }
     ],
     "path": "/css/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "图表",
+        "slug": "图表",
+        "link": "#图表",
+        "children": []
+      }
+    ],
+    "path": "/chart/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -192,6 +141,21 @@ export const searchIndex = [
       }
     ],
     "path": "/defi/sudoswap.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ESSAY",
+        "slug": "essay",
+        "link": "#essay",
+        "children": []
+      }
+    ],
+    "path": "/essay/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -389,14 +353,28 @@ export const searchIndex = [
     "title": "",
     "headers": [
       {
-        "level": 2,
-        "title": "ESSAY",
-        "slug": "essay",
-        "link": "#essay",
+        "level": 3,
+        "title": "systems",
+        "slug": "systems",
+        "link": "#systems",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "资产管理",
+        "slug": "资产管理",
+        "link": "#资产管理",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "埋点",
+        "slug": "埋点",
+        "link": "#埋点",
         "children": []
       }
     ],
-    "path": "/essay/",
+    "path": "/admins/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -412,13 +390,35 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "UI repo",
-        "slug": "ui-repo",
-        "link": "#ui-repo",
+        "title": "nginx",
+        "slug": "nginx",
+        "link": "#nginx",
         "children": []
       }
     ],
-    "path": "/mobile/",
+    "path": "/nginx/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1. 禁用max chrome 浏览器横向滚动触发翻页",
+        "slug": "_1-禁用max-chrome-浏览器横向滚动触发翻页",
+        "link": "#_1-禁用max-chrome-浏览器横向滚动触发翻页",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "插件",
+        "slug": "插件",
+        "link": "#插件",
+        "children": []
+      }
+    ],
+    "path": "/browser/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -434,6 +434,21 @@ export const searchIndex = [
       }
     ],
     "path": "/node/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "UI repo",
+        "slug": "ui-repo",
+        "link": "#ui-repo",
+        "children": []
+      }
+    ],
+    "path": "/mobile/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -675,21 +690,6 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "typescript",
-        "slug": "typescript",
-        "link": "#typescript",
-        "children": []
-      }
-    ],
-    "path": "/typescript/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
         "title": "Component",
         "slug": "component",
         "link": "#component",
@@ -752,16 +752,24 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端开发",
-    "headers": [],
-    "path": "/web/",
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "typescript",
+        "slug": "typescript",
+        "link": "#typescript",
+        "children": []
+      }
+    ],
+    "path": "/typescript/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "前端开发",
     "headers": [],
-    "path": "/web3d/",
+    "path": "/web/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1428,6 +1436,13 @@ export const searchIndex = [
       }
     ],
     "path": "/zhangzr/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/web3d/",
     "pathLocale": "/",
     "extraFields": []
   },
